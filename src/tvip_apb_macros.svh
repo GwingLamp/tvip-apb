@@ -13,15 +13,13 @@
 //  See the License for the specific language governing permissions and
 //  limitations under the License.
 //------------------------------------------------------------------------------
-`ifndef TVIP_APB_MACROS_SVH
-`define TVIP_APB_MACROS_SVH
+`ifndef ${IP_NAME}_MACROS_SVH
+`define ${IP_NAME}_MACROS_SVH
 
-`ifndef TVIP_APB_MAX_ADDRESS_WIDTH
-  `define TVIP_APB_MAX_ADDRESS_WIDTH 16
-`endif
+//add parameter below
+//`ifndef ${IP_NAME}_ADDRESS_WIDTH
+//  `define ${IP_NAME}_ADDRESS_WIDTH 16
+//`endif
 
-`ifndef TVIP_APB_MAX_DATA_WIDTH
-  `define TVIP_APB_MAX_DATA_WIDTH 32
-`endif
 
 `endif
