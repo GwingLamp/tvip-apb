@@ -13,12 +13,12 @@
 //  See the License for the specific language governing permissions and
 //  limitations under the License.
 //------------------------------------------------------------------------------
-`ifndef ${IP_NAME}_MACROS_SVH
-`define ${IP_NAME}_MACROS_SVH
+`ifndef ${TVIP_NAME}_MACROS_SVH
+`define ${TVIP_NAME}_MACROS_SVH
 
 //add parameter below
-//`ifndef ${IP_NAME}_ADDRESS_WIDTH
-//  `define ${IP_NAME}_ADDRESS_WIDTH 16
+//`ifndef ${TVIP_NAME}_ADDRESS_WIDTH
+//  `define ${TVIP_NAME}_ADDRESS_WIDTH 16
 //`endif
 
 
